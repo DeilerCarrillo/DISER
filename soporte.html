@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soporte Técnico | DISER</title>
+    <meta
+      name="description"
+      content="Soporte técnico de DISER: guía rápida, teléfonos de atención y formulario para crear un ticket."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo de DISER" class="logo-img" />
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="programas.html">Servicios</a></li>
+            <li><a href="ayuda.html">Cobertura</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+            <li><a href="avisos.html">Avisos</a></li>
+            <li><a href="soporte.html" class="active">Soporte</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Soporte técnico</h2>
+            <p>
+              Revisa la guía rápida o envíanos tu solicitud para asistencia
+              personalizada.
+            </p>
+          </header>
+
+          <div class="split">
+            <div class="split-block">
+              <h3>Guía rápida de solución</h3>
+              <ul class="check-list">
+                <li>Verifica que el router esté encendido.</li>
+                <li>Asegúrate de que los cables estén bien conectados.</li>
+                <li>Reinicia el router si la conexión está lenta.</li>
+                <li>
+                  Comprueba si otros dispositivos también tienen el problema.
+                </li>
+              </ul>
+            </div>
+
+            <div class="split-block">
+              <h3>Horarios y teléfonos</h3>
+              <p><strong>Santa Rosa de Copán:</strong> 2662-0029, 3192-8576</p>
+              <p><strong>Gracias, Lempira:</strong> 3281-9410</p>
+              <p>
+                Atención en horarios de oficina. Para emergencias técnicas,
+                puedes dejar mensaje.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt">
+        <div class="container">
+          <h3>Crear ticket de soporte</h3>
+          <p>Completa el formulario y nuestro equipo se comunicará contigo.</p>
+
+          <form id="formSoporte" class="form">
+            <div class="form-row">
+              <label for="nombreSoporte">Nombre completo</label>
+              <input type="text" id="nombreSoporte" required />
+              <span id="errorNombreSoporte" class="form-error"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="correoSoporte">Correo electrónico</label>
+              <input type="email" id="correoSoporte" required />
+              <span id="errorCorreoSoporte" class="form-error"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="telefonoSoporte">Teléfono</label>
+              <input type="tel" id="telefonoSoporte" required />
+              <span id="errorTelefonoSoporte" class="form-error"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="ciudadSoporte">Ciudad</label>
+              <select id="ciudadSoporte" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Santa Rosa de Copán">Santa Rosa de Copán</option>
+                <option value="Gracias, Lempira">Gracias, Lempira</option>
+              </select>
+              <span id="errorCiudadSoporte" class="form-error"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="tipoServicio">Tipo de servicio</label>
+              <select id="tipoServicio" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Internet">Internet</option>
+                <option value="Cable">Cable</option>
+                <option value="Internet y Cable">Internet y Cable</option>
+              </select>
+              <span id="errorTipoServicio" class="form-error"></span>
+            </div>
+
+            <div class="form-row">
+              <label for="descripcionProblema">Describe el problema</label>
+              <textarea id="descripcionProblema" rows="4" required></textarea>
+              <span id="errorDescripcionProblema" class="form-error"></span>
+            </div>
+
+            <button class="btn btn-primary" type="submit">
+              Enviar solicitud
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>DISER</h3>
+          <p>Tu compañía de internet en el occidente de Honduras.</p>
+        </div>
+
+        <div>
+          <h4>Oficinas físicas</h4>
+          <p>
+            Col. Mejía García, Santa Rosa de Copán.<br />
+            Tel: 2662-0029, 3192-8576
+          </p>
+          <p>
+            Ave. Circunvalación frente a gasolinera PUMA, Gracias, Lempira.<br />
+            Tel: 3281-9410
+          </p>
+        </div>
+
+        <div>
+          <h4>Enlaces rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="programas.html">Planes de internet</a></li>
+            <li><a href="soporte.html">Soporte técnico</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footerYear"></p>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

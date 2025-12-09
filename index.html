@@ -10,4 +10,330 @@
 <body>
     
 </body>
+</html><!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DISER | Tu compañía de internet</title>
+    <meta
+      name="description"
+      content="DISER ofrece servicios de internet por fibra óptica y TV por cable en el occidente de Honduras."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo de DISER" class="logo-img" />
+          <span class="logo-text">DISER</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menú de navegación"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="programas.html">Servicios</a></li>
+            <li><a href="ayuda.html">Cobertura</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+            <li><a href="avisos.html">Avisos</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <span class="hero-badge">Fibra óptica y TV por cable</span>
+            <h1>
+              Conectamos tu hogar y tu negocio con internet estable y cercano.
+            </h1>
+            <p>
+              DISER es una empresa de telecomunicaciones que nace en el
+              occidente de Honduras para ofrecer conexiones confiables de fibra
+              óptica y soluciones de entretenimiento por cable con atención
+              cercana y transparente.
+            </p>
+            <div class="hero-actions">
+              <a href="programas.html" class="btn btn-primary"
+                >Ver planes de internet</a
+              >
+              <a
+                href="soporte.html"
+                class="btn btn-outline"
+                data-scroll="#soporte-previo"
+                >Necesito soporte</a
+              >
+            </div>
+
+            <ul class="hero-highlights">
+              <li>Instalaciones en Santa Rosa de Copán y Gracias, Lempira.</li>
+              <li>Planes residenciales y empresariales.</li>
+              <li>Equipo técnico local y soporte personalizado.</li>
+            </ul>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card">
+              <h2>Planes destacados</h2>
+              <ul>
+                <li><span>13 Mbps</span><strong>L. 599 LPS/mes</strong></li>
+                <li><span>15 Mbps</span><strong>L. 699 LPS/mes</strong></li>
+                <li><span>18 Mbps</span><strong>L. 799 LPS/mes</strong></li>
+                <li>
+                  <span>Plan empresarial</span><strong>Cotización</strong>
+                </li>
+              </ul>
+              <p class="hero-note">
+                *Planes residenciales disponibles en Santa Rosa de Copán y
+                Gracias, Lempira.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section services" id="servicios">
+        <div class="container">
+          <header class="section-header">
+            <h2>Servicios principales</h2>
+            <p>
+              Soluciones de conectividad diseñadas para hogares, negocios y
+              comunidades.
+            </p>
+          </header>
+
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Internet residencial</h3>
+              <p>
+                Conexiones de fibra óptica para streaming, clases en línea,
+                juegos y trabajo remoto sin interrupciones.
+              </p>
+              <ul class="card-list">
+                <li>Planes desde 25 Mbps en adelante.</li>
+                <li>Router Wi-Fi incluido según plan.</li>
+                <li>Soporte técnico local.</li>
+              </ul>
+              <a href="programas.html#residencial" class="card-link"
+                >Ver planes residenciales</a
+              >
+            </article>
+
+            <article class="card">
+              <h3>Internet para negocios</h3>
+              <p>
+                Conectividad estable para puntos de venta, oficinas y pequeños
+                negocios que necesitan mantenerse en línea.
+              </p>
+              <ul class="card-list">
+                <li>Planes con mayor prioridad de tráfico.</li>
+                <li>Opciones de respaldo y monitoreo.</li>
+                <li>Acompañamiento en instalación interna.</li>
+              </ul>
+              <a href="programas.html#empresarial" class="card-link"
+                >Ver planes empresariales</a
+              >
+            </article>
+
+            <article class="card">
+              <h3>TV por cable</h3>
+              <p>
+                Programación variada para toda la familia, con canales
+                informativos y de entretenimiento.
+              </p>
+              <ul class="card-list">
+                <li>Paquetes de canales nacionales e internacionales.</li>
+                <li>Opciones HD según disponibilidad.</li>
+                <li>Combos con internet de fibra.</li>
+              </ul>
+              <a href="programas.html#tv" class="card-link"
+                >Ver paquetes de cable</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="por-que-diser">
+        <div class="container">
+          <header class="section-header">
+            <h2>¿Por qué elegir DISER?</h2>
+            <p>
+              Nos enfocamos en la experiencia del usuario y en el impacto en la
+              comunidad.
+            </p>
+          </header>
+
+          <div class="features-grid">
+            <article class="feature">
+              <h3>Conectividad confiable</h3>
+              <p>
+                Utilizamos infraestructura de fibra óptica y equipos
+                actualizados para que la conexión se mantenga estable en los
+                momentos importantes.
+              </p>
+            </article>
+
+            <article class="feature">
+              <h3>Atención cercana</h3>
+              <p>
+                Nuestro equipo de soporte y técnicos de campo vive en la misma
+                región que nuestros clientes, lo que facilita la comunicación y
+                las visitas técnicas.
+              </p>
+            </article>
+
+            <article class="feature">
+              <h3>Transparencia y servicio</h3>
+              <p>
+                Buscamos explicar los planes, velocidades y condiciones de
+                manera clara, sin letras pequeñas, para que sepas exactamente
+                qué estás contratando.
+              </p>
+            </article>
+
+            <article class="feature">
+              <h3>Compromiso con la comunidad</h3>
+              <p>
+                DISER impulsa proyectos de conectividad para escuelas y
+                organizaciones locales, ayudando a disminuir la brecha digital
+                en la zona.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="soporte-previo">
+        <div class="container split">
+          <div class="split-block">
+            <h2>Próximas actividades y trabajos programados</h2>
+            <ul class="event-list" id="eventList">
+              <li>
+                <h3>Brigada de instalación en Santa Rosa</h3>
+                <p>
+                  Visitas a barrios seleccionados para facilitar nuevas
+                  conexiones de fibra óptica.
+                </p>
+                <span class="tag">Santa Rosa de Copán</span>
+              </li>
+              <li>
+                <h3>Mantenimiento programado de red</h3>
+                <p>
+                  Trabajos de mejora en la infraestructura de fibra. Algunos
+                  clientes pueden experimentar cortes breves.
+                </p>
+                <span class="tag tag-warning">Mantenimiento</span>
+              </li>
+            </ul>
+            <a href="eventos.html" class="link-inline">Ver todos los eventos</a>
+          </div>
+
+          <div class="split-block">
+            <h2>¿Tienes problemas con tu servicio?</h2>
+            <p>
+              Si tu internet se siente lento, si te quedaste sin señal o tienes
+              dudas sobre tu factura, nuestro equipo de soporte está listo para
+              ayudarte.
+            </p>
+            <ul class="check-list">
+              <li>Guía rápida de solución de problemas.</li>
+              <li>Formulario para crear un ticket de soporte.</li>
+              <li>Teléfonos y horarios de atención por ciudad.</li>
+            </ul>
+            <a href="soporte.html" class="btn btn-primary"
+              >Ir a soporte técnico</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cta">
+        <div class="container cta-content">
+          <div>
+            <h2>Conéctate con DISER hoy mismo</h2>
+            <p>
+              Comparte con nosotros tu dirección y te confirmamos la
+              disponibilidad de fibra óptica o cable en tu zona. Nuestro equipo
+              te acompañará en todo el proceso de instalación.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a href="contacto.html" class="btn btn-light"
+              >Solicitar información</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>DISER</h3>
+          <p>Tu compañía de internet en la región occidental de Honduras.</p>
+        </div>
+
+        <div>
+          <h4>Oficinas físicas</h4>
+          <p>
+            Col. Mejía García, Santa Rosa de Copán.<br />
+            <strong>Tel:</strong> 2662-0029, 3192-8576
+          </p>
+          <p>
+            Ave. circunvalación, frente a gasolinera PUMA, Gracias, Lempira.<br />
+            <strong>Tel:</strong> 3281-9410
+          </p>
+        </div>
+
+        <div>
+          <h4>Enlaces rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="programas.html">Planes de internet</a></li>
+            <li><a href="soporte.html">Soporte técnico</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto digital</h4>
+          <p>Correo: info@disertelecom.hn (ejemplo)</p>
+          <p>Redes sociales: Facebook / Instagram (ejemplo)</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footerYear"></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
