@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consejos y recursos | DISER</title>
+  <meta name="description" content="Consejos rápidos para mejorar tu conexión a internet, cuidar tu red Wi-Fi y navegar de forma más segura.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-content">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Logo de DISER" class="logo-img">
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false">
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="programas.html">Servicios</a></li>
+        <li><a href="ayuda.html">Cobertura</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="consejos.html" class="active">Consejos</a></li>
+        <li><a href="avisos.html">Avisos</a></li>
+        <li><a href="soporte.html">Soporte</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Consejos y recursos</h2>
+        <p>Guías rápidas para sacar el máximo provecho a tu conexión DISER y navegar con mayor tranquilidad.</p>
+      </header>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>Cómo mejorar la señal Wi-Fi en casa</h3>
+          <p>Aprende dónde colocar tu router, cómo evitar interferencias y qué hacer si algunas habitaciones tienen señal más débil.</p>
+          <ul class="card-list">
+            <li>Coloca el router en un punto alto y central.</li>
+            <li>Evita tenerlo dentro de muebles cerrados.</li>
+            <li>Reduce obstáculos como paredes muy gruesas.</li>
+          </ul>
+          <a href="#" class="card-link">Leer más</a>
+        </article>
+
+        <article class="card">
+          <h3>Ventajas de la fibra óptica frente a otras tecnologías</h3>
+          <p>Te explicamos por qué la fibra óptica ofrece conexiones más estables, con menor latencia y mejores velocidades.</p>
+          <ul class="card-list">
+            <li>Mayor estabilidad en horas de alta demanda.</li>
+            <li>Más velocidad para varios dispositivos a la vez.</li>
+            <li>Menor afectación por interferencias eléctricas.</li>
+          </ul>
+          <a href="#" class="card-link">Leer más</a>
+        </article>
+
+        <article class="card">
+          <h3>Recomendaciones de seguridad en línea para tu familia</h3>
+          <p>Cuida tus cuentas, dispositivos y a los más pequeños con estas recomendaciones básicas de seguridad digital.</p>
+          <ul class="card-list">
+            <li>Usa contraseñas seguras y distintas por servicio.</li>
+            <li>No compartas códigos de verificación por chat.</li>
+            <li>Activa el control parental cuando sea necesario.</li>
+          </ul>
+          <a href="#" class="card-link">Leer más</a>
+        </article>
+      </div>
+
+      <section class="section" style="padding-top:2rem;">
+        <div class="container">
+          <div class="split">
+            <div class="split-block">
+              <h3>Consejos para trabajar y estudiar en línea</h3>
+              <p>Si usas la conexión para clases virtuales o trabajo remoto, estas prácticas pueden ayudarte a tener una mejor experiencia.</p>
+              <ul class="check-list">
+                <li>Conecta por cable de red cuando sea posible.</li>
+                <li>Cierra programas que consuman mucho ancho de banda.</li>
+                <li>Ubica el router cerca del lugar donde más utilizas internet.</li>
+              </ul>
+            </div>
+
+            <div class="split-block">
+              <h3>¿Tienes dudas específicas?</h3>
+              <p>Puedes ponerte en contacto con nuestro equipo para recibir orientación sobre qué plan se adapta mejor a tus necesidades.</p>
+              <a href="contacto.html" class="btn btn-primary">Hablar con DISER</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>DISER</h3>
+      <p>Tu compañía de internet en el occidente de Honduras.</p>
+    </div>
+
+    <div>
+      <h4>Oficinas físicas</h4>
+      <p>Col. Mejía García, Santa Rosa de Copán. Tel: 2662-0029, 3192-8576</p>
+      <p>Ave. Circunvalación frente a PUMA, Gracias, Lempira. Tel: 3281-9410</p>
+    </div>
+
+    <div>
+      <h4>Enlaces rápidos</h4>
+      <ul class="footer-links">
+        <li><a href="programas.html">Planes de internet</a></li>
+        <li><a href="soporte.html">Soporte técnico</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p id="footerYear"></p>
+  </div>
+</footer>
+
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
+consejos.html

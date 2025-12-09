@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto | DISER</title>
+    <meta
+      name="description"
+      content="Contacta a DISER para contratar servicios, resolver dudas o recibir soporte técnico."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo de DISER" class="logo-img" />
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false">
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="programas.html">Servicios</a></li>
+            <li><a href="ayuda.html">Cobertura</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+            <li><a href="avisos.html">Avisos</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Contáctanos</h2>
+            <p>
+              Envíanos un mensaje si deseas contratar un servicio, realizar una
+              consulta o solicitar soporte.
+            </p>
+          </header>
+
+          <div class="split">
+            <div class="split-block">
+              <h3>Visita nuestras oficinas</h3>
+
+              <img
+                src="images/oficina_fisica.png"
+                alt="Oficinas de DISER"
+                class="oficina-img"
+              />
+
+              <p>
+                <strong>Santa Rosa de Copán</strong><br />
+                Col. Mejía García<br />
+                Tel: 2662-0029, 3192-8576
+              </p>
+
+              <p>
+                <strong>Gracias, Lempira</strong><br />
+                Ave. Circunvalación frente a Gasolinera PUMA<br />
+                Tel: 3281-9410
+              </p>
+            </div>
+
+            <div class="split-block">
+              <h3>Formulario de contacto</h3>
+
+              <form id="formContacto" class="form">
+                <div class="form-row">
+                  <label for="nombreContacto">Nombre completo</label>
+                  <input type="text" id="nombreContacto" required />
+                  <span id="errorNombreContacto" class="form-error"></span>
+                </div>
+              
+                <div class="form-row">
+                  <label for="correoContacto">Correo electrónico</label>
+                  <input type="email" id="correoContacto" required />
+                  <span id="errorCorreoContacto" class="form-error"></span>
+                </div>
+              
+                <div class="form-row">
+                  <label for="telefonoContacto">Teléfono</label>
+                  <input type="tel" id="telefonoContacto" required />
+                  <span id="errorTelefonoContacto" class="form-error"></span>
+                </div>
+              
+                <div class="form-row">
+                  <label for="motivoContacto">Motivo</label>
+                  <select id="motivoContacto" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="Contratación">Contratación</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Soporte">Soporte</option>
+                  </select>
+                  <span id="errorMotivoContacto" class="form-error"></span>
+                </div>
+              
+                <div class="form-row">
+                  <label for="mensajeContacto">Mensaje</label>
+                  <textarea id="mensajeContacto" rows="4" required></textarea>
+                  <span id="errorMensajeContacto" class="form-error"></span>
+                </div>
+              
+                <button class="btn btn-primary" type="submit">
+                  Enviar mensaje
+                </button>
+              </form>              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>DISER</h3>
+          <p>Tu compañía de internet en el occidente de Honduras.</p>
+        </div>
+
+        <div>
+          <h4>Oficinas físicas</h4>
+          <p>
+            Col. Mejía García, Santa Rosa de Copán. Tel: 2662-0029, 3192-8576
+          </p>
+          <p>
+            Ave. Circunvalación frente a PUMA, Gracias, Lempira. Tel: 3281-9410
+          </p>
+        </div>
+
+        <div>
+          <h4>Enlaces rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="programas.html">Planes de internet</a></li>
+            <li><a href="soporte.html">Soporte técnico</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footerYear"></p>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
+contacto.html

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Avisos y mantenimiento | DISER</title>
+  <meta name="description" content="Avisos importantes y mantenimientos programados de la red de DISER en Santa Rosa de Copán y Gracias, Lempira.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-content">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Logo de DISER" class="logo-img">
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false">
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="about.html">Acerca de</a></li>
+        <li><a href="programas.html">Servicios</a></li>
+        <li><a href="ayuda.html">Cobertura</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="consejos.html">Consejos</a></li>
+        <li><a href="avisos.html" class="active">Avisos</a></li>
+        <li><a href="soporte.html">Soporte</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section">
+    <div class="container">
+      <header class="section-header">
+        <h2>Avisos y mantenimiento de red</h2>
+        <p>Consulta los trabajos programados y avisos recientes que pueden afectar temporalmente tu servicio.</p>
+      </header>
+
+      <div class="split">
+        <div class="split-block">
+          <h3>Trabajos programados</h3>
+          <ul class="event-list">
+            <li>
+              <h3>Mejora de red en Santa Rosa de Copán</h3>
+              <p>Optimización de enlaces de fibra óptica en sectores de la Col. Mejía García y alrededores.</p>
+              <p><strong>Fecha estimada:</strong> 15 de cada mes, horario nocturno.</p>
+              <span class="tag tag-warning">Mantenimiento programado</span>
+            </li>
+            <li>
+              <h3>Ampliación de cobertura en Gracias, Lempira</h3>
+              <p>Instalación de nuevos tramos de fibra en la zona de la Ave. Circunvalación.</p>
+              <p><strong>Impacto:</strong> Posibles cortes breves mientras se realizan los trabajos.</p>
+              <span class="tag">Expansión de red</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="split-block">
+          <h3>Avisos recientes</h3>
+          <ul class="card-list">
+            <li>Si experimentas cortes fuera de estos horarios, repórtalo en la sección de soporte.</li>
+            <li>Cuando haya trabajos no programados por emergencias, se publicarán también en esta página.</li>
+            <li>Te recomendamos mantener actualizado tu número de contacto para recibir notificaciones.</li>
+          </ul>
+          <a href="soporte.html" class="btn btn-primary">Ir a soporte técnico</a>
+        </div>
+      </div>
+
+      <section class="section" style="padding-top:2rem;">
+        <div class="container">
+          <h3>Historial de avisos</h3>
+          <table class="plan-table">
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Zona</th>
+                <th>Descripción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>05/08/2025</td>
+                <td>Santa Rosa de Copán</td>
+                <td>Actualización de equipo de distribución en red principal, interrupción aproximada de 30 minutos.</td>
+              </tr>
+              <tr>
+                <td>20/07/2025</td>
+                <td>Gracias, Lempira</td>
+                <td>Mantenimiento preventivo en nodo de fibra, servicio inestable durante la madrugada.</td>
+              </tr>
+              <tr>
+                <td>02/07/2025</td>
+                <td>Santa Rosa de Copán</td>
+                <td>Reemplazo de equipo afectado por tormenta eléctrica, restablecimiento completo del servicio.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h3>DISER</h3>
+      <p>Tu compañía de internet en el occidente de Honduras.</p>
+    </div>
+
+    <div>
+      <h4>Oficinas físicas</h4>
+      <p>Col. Mejía García, Santa Rosa de Copán. Tel: 2662-0029, 3192-8576</p>
+      <p>Ave. Circunvalación frente a PUMA, Gracias, Lempira. Tel: 3281-9410</p>
+    </div>
+
+    <div>
+      <h4>Enlaces rápidos</h4>
+      <ul class="footer-links">
+        <li><a href="programas.html">Planes de internet</a></li>
+        <li><a href="soporte.html">Soporte técnico</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p id="footerYear"></p>
+  </div>
+</footer>
+
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
