@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galería | DISER</title>
+    <meta
+      name="description"
+      content="Imágenes de instalaciones y proyectos realizados por DISER."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Logo de DISER" class="logo-img" />
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menú de navegación"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+          <span class="nav-toggle-line"></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="programas.html">Servicios</a></li>
+            <li><a href="ayuda.html">Cobertura</a></li>
+            <li><a href="galeria.html" class="active">Galería</a></li>
+            <li><a href="consejos.html">Consejos</a></li>
+            <li><a href="avisos.html">Avisos</a></li>
+            <li><a href="soporte.html">Soporte</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Galería de instalaciones y proyectos</h2>
+            <p>
+              Algunas imágenes que muestran el trabajo diario del equipo de
+              DISER.
+            </p>
+          </header>
+
+          <div class="cards-grid">
+            <article class="card">
+              <img
+                src="images/instalacion.png"
+                alt="Técnico instalando cable de fibra óptica en un poste."
+              />
+              <h3>Instalación de fibra en barrio residencial</h3>
+              <p>
+                Trabajo de campo para llevar nueva conexión a una zona recién
+                incorporada a la red.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="images/router.png"
+                alt="Router instalado en una sala de estar."
+              />
+              <h3>Configuración de equipos en el hogar</h3>
+              <p>
+                Configuramos el router y explicamos a la familia cómo sacar el
+                máximo provecho al servicio.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="images/pantalla_monitoreo.png"
+                alt="Equipo técnico revisando el estado de la red en oficina."
+              />
+              <h3>Monitoreo de la red</h3>
+              <p>
+                Supervisión del estado de la red para mantener la estabilidad
+                del servicio.
+              </p>
+            </article>
+            <article class="card">
+              <img
+                src="images/paquete_tv.png"
+                alt="Paquetes de Tv por cable."
+              />
+              <h3>Paquetes de TV por cable</h3>
+              <p>Soluciones de entretenimiento para negocios y hogares.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>DISER</h3>
+          <p>Tu compañía de internet en la región occidental de Honduras.</p>
+        </div>
+
+        <div>
+          <h4>Oficinas físicas</h4>
+          <p>
+            Col. Mejía García, Santa Rosa de Copán.<br />
+            <strong>Tel:</strong> 2662-0029, 3192-8576
+          </p>
+          <p>
+            Ave. circunvalación, frente a gasolinera PUMA, Gracias, Lempira.<br />
+            <strong>Tel:</strong> 3281-9410
+          </p>
+        </div>
+
+        <div>
+          <h4>Enlaces rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="programas.html">Planes de internet</a></li>
+            <li><a href="soporte.html">Soporte técnico</a></li>
+            <li><a href="faq.html">Preguntas frecuentes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto digital</h4>
+          <p>Correo: info@disertelecom.hn (ejemplo)</p>
+          <p>Redes sociales: Facebook / Instagram (ejemplo)</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footerYear"></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
